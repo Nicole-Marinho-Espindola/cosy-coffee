@@ -5,3 +5,8 @@
   box-sizing: border-box;
   font-family: 'Overlock', sans-serif;
 }
+
+html, body, #root{
+  background-color:  #f0ece2;
+  height: 100%;
+}
