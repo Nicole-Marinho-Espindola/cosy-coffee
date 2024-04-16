@@ -1,0 +1,21 @@
+.btn{
+    padding: 0.5em 1em;
+    background-color: #45171d;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 7em;
+}
+
+.btn > a{
+    transition: 0.5s all ease-in-out;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn > a:hover{
+    color: #895259;
+    cursor: pointer;
+}
+
