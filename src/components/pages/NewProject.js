@@ -1,6 +1,12 @@
+import Project from '../projects/ProjectForm'
+
 function NewProject() {
     return(
-        <h1>NewProject</h1>
+        <div>
+            <h1>New Event Form</h1>
+            <p>Here you can add new events for Cosy Coffee</p>
+            <Project />
+        </div>
     )
 }
 
