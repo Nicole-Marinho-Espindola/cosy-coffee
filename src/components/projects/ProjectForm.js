@@ -1,4 +1,6 @@
-import Input from "../form/Input";
+import Input from "../form/input";
+import Select from "../form/select";
+import Button from "../layouts/Button";
 import styles from "./css/projectForm.module.css";
 
 function Project() {
@@ -10,26 +12,23 @@ function Project() {
         id="textInput"
         text="Project Name"
         placeholder="Create a project name"
-        onChange='function()'
+        onChange="function()"
       />
       <Input
-        type="text"
-        name="textInput"
-        id="textInput"
-        text="Project Name"
-        placeholder="Create a project name"
-        onChange='function()'
+        type="number"
+        name="numberInput"
+        id="numberInput"
+        text="Project Budget"
+        placeholder="Create a project budget"
+        onChange="function()"
       />
-       <Input
-        type="text"
-        name="textInput"
-        id="textInput"
-        text="Project Name"
-        placeholder="Create a project name"
-        onChange='function()'
+      <Select
+        name="select_category"
+        id="select_category"
+        text="Select an option"
       />
-      <div>
-        <button>Create</button>
+      <div className={styles.btn_block}>
+        <Button href="./" />
       </div>
     </form>
   );

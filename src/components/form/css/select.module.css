@@ -10,13 +10,10 @@
     font-weight: bold;
 }
 
-.form_control > input{
+.form_control > select{
     padding: .7em;
     border-radius: 0;
     border: none;
-    width: 30em;
-}
-
-.form_control > input::placeholder{
     color: #7b7b7b;
+    width: 30em;
 }

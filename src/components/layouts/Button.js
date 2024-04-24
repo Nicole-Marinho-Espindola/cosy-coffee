@@ -1,10 +1,10 @@
 import styles from "./css/button.module.css";
 import NewProject from "../pages/NewProject";
 
-function Button() {
+function Button({href}) {
   return (
     <button className={styles.btn}>
-      <a href="./NewProject">New Event</a>
+      <a href={href}>New Event</a>
     </button>
   );
 }
