@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import styles from "./css/button.module.css";
-import NewProject from "../pages/NewProject";
 
-function Button({href}) {
+function Button() {
   return (
     <button className={styles.btn}>
-      <a href={href}>New Event</a>
+      <Link to="./NewProject">New Event</Link>
     </button>
   );
 }

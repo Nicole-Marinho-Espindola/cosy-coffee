@@ -14,7 +14,7 @@ function Home() {
           your Cosy Bear events
         </p>
         <p className={styles.paragraph}>Follow the button to add new event!</p>
-        <Button href="./newProject.js" />
+        <Button />
       </div>
       <div className={styles.img_block}>
         <img className={styles.img} src={bearImg} alt="Cosy Bear Poster" />

@@ -28,7 +28,7 @@ function Project() {
         text="Select an option"
       />
       <div className={styles.btn_block}>
-        <Button href="./" />
+        <Button />
       </div>
     </form>
   );
