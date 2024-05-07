@@ -1,4 +1,4 @@
-import Project from "../projects/ProjectForm";
+import ProjectForm from "../projects/ProjectForm";
 import styles from './css/newProject.module.css'
 
 function NewProject() {
@@ -8,7 +8,7 @@ function NewProject() {
         <h1>New Event Form</h1>
         <p>Here you can add new events for Cosy Coffee</p>
       </div>
-      <Project />
+      <ProjectForm />
     </div>
   );
 }

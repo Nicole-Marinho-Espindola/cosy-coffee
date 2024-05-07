@@ -3,7 +3,7 @@ import Select from "../form/select";
 import Button from "../layouts/Button";
 import styles from "./css/projectForm.module.css";
 
-function Project() {
+function ProjectForm() {
   return (
     <form className={styles.form_style}>
       <Input
@@ -34,4 +34,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default ProjectForm;

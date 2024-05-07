@@ -4,7 +4,7 @@ import styles from "./css/button.module.css";
 function Button() {
   return (
     <button className={styles.btn}>
-      <Link to="./NewProject">New Event</Link>
+      <Link to="./newproject">New Event</Link>
     </button>
   );
 }
