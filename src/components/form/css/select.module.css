@@ -5,12 +5,18 @@
     margin-bottom: 1em;
 }
 
-.form_control > label{
+.label_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.label_container > label{
     margin-bottom: .6em;
     font-weight: bold;
 }
 
-.form_control > select{
+.label_container > select{
     padding: .7em;
     border-radius: 0;
     border: none;

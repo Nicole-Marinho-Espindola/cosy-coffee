@@ -28,7 +28,7 @@ function ProjectForm() {
         text="Select an option"
       />
       <div className={styles.btn_block}>
-        <Button />
+        <Button route="./" btnText="New event" />
       </div>
     </form>
   );

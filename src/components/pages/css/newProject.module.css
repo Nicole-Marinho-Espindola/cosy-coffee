@@ -9,6 +9,16 @@
 .title{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-bottom: 1.5em;
+    margin-bottom: 3.5em;
+}
+
+.title > h1{
+    color: #321216;
+}
+
+.title > p{
+    font-weight: bold;
+    color: #895259;
 }
