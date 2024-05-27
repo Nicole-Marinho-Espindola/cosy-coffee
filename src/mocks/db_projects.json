@@ -1,0 +1,20 @@
+{
+    "categories":[
+        {
+            "id": 1,
+            "name": "gallery"
+        },
+        {
+            "id": 2,
+            "name": "show"
+        },
+        {
+            "id": 3,
+            "name": "gourmet coffee"
+        },
+        {
+            "id": 4,
+            "name": "painting day"
+        }
+    ]
+}
