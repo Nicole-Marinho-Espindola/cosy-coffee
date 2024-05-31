@@ -1,7 +1,6 @@
 import styles from "./css/home.module.css";
 import Button from "../layouts/Button";
 import bearImg from "../../img/Cosy_Bear_Cafe.webp";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
