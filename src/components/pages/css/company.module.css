@@ -1,0 +1,31 @@
+.center_itens, .container, .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar{
+    justify-content: left;
+    width: 100%;
+    padding: 1.5em 2em 1.5em 4.5em;
+    background-color: #321216;
+    height: 5.5em;
+    border-radius: 5px;
+    margin-top: 4.5em;
+    margin-bottom: 2em;
+}
+
+.navbar > img{
+    height: 8.5em;
+    margin-right: 1em;
+}
+
+.navbar > h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
